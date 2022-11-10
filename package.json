@@ -4,16 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node src/app.js",
-    "dev":"nodemon src/app.js"
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubair2001/restapi.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubair2001/restapi/issues"
+  },
+  "homepage": "https://github.com/zubair2001/restapi#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^6.7.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.20"
   }
 }
